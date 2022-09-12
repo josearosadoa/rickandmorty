@@ -1,0 +1,117 @@
+:root{
+  --first-color: #0b3b42;
+  --second-color: #062226;
+  --font-color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+
+
+
+
+
+
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  width: 100%;
+  min-height:100%;
+  background: #0b3b42;
+  color: var(--font-color);
+   
+}
+
+
+li{
+  list-style: none;
+
+}
+
+.App{
+  display: grid;
+  align-items: center;
+  height: 100%;
+  margin-top: 35px;
+  min-width: 70rem;
+}
+.rectangle-initial{
+  background-image: url('https://s3-alpha-sig.figma.com/img/f757/e216/34f8ffb34b0055d2a2a34bc10390c23c?Expires=1663545600&Signature=Wx9kym7YRXDcrXkXdRrFarWh9EAw0cBt45s7eBURJ7f6X4MMalsd9B2RFTYc3jmbkkLAvQzPNPA-A84I9xfgyxO192hpEyBrIJ0c2~LXtlq95gDOnSR5HuxQswa98vZtpPsCxTTTHVuD2j~p~dZU-fgL019JhZIB4f7oElCp-tUStLxdgnT2KbjOWZKVZkY7lFfxbAXnvqnC~xJMSICoZ-BKJWqLsJc5jSvsFAudVtLI1BGln4pkgQmpXwUsb00L5tNiPun32WKsSIXWEFUv44mrYuA-e1QFsMEJcXXtNPhChmA3IKaTq4SuVw0cdtm9cFZoehelTrrP2BzxzjL19g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 8px rgba(105, 99, 99, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+  
+  }
+
+
+.card-details{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+  margin-top: 280px;
+  background: var(--second-color);
+
+}
+
+
+.rectangle-initial input{
+  
+    width: 600px;
+    height: 51px;
+    border-style: groove;
+    border-radius: 10px;
+    position: absolute;
+    left: 345px;
+    top: 210px;
+
+  }
+
+  .rectangle-initial button{
+    position: absolute;
+    left: 945px;
+    top: 220px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+
+.card-character{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 20%);
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  gap: 10px;
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: var(--second-color);
+  
+}
